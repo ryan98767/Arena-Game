@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+using PlayerMovementNameSpace;
 
 public class PlayerAttack : MonoBehaviour
 {
@@ -10,18 +11,22 @@ public class PlayerAttack : MonoBehaviour
     [SerializeField] private Transform attackPos;
     [SerializeField] private float attackRange;
     [SerializeField] private LayerMask enemies;
-
+    [SerializeField] private Animator anim;
+    [SerializeField] private PlayerMovement playerMove;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if (timeBtwAttack > 0)
+        {
+            timeBtwAttack -= Time.deltaTime;
+        }
     }
 
     public float AttackRange
@@ -36,18 +41,19 @@ public class PlayerAttack : MonoBehaviour
         {
             if (timeBtwAttack <= 0)
             {
-                Debug.Log("Basic Attack");
+                anim.SetTrigger("Attack1");
                 timeBtwAttack = startTimeBtwAttack;
-                Collider2D[] enemiesToDamage = Physics2D.OverlapCircleAll(attackPos.position, attackRange, enemies);
-                    for (int i = 0; i < enemiesToDamage.Length; i++)
-                    {
-                        Debug.Log("Struck enemy");
-                    }
             }
-            else
-            {
-                timeBtwAttack -= Time.deltaTime;
-            }
+        }
+    }
+
+    public void DealDamage() 
+    {
+        Collider2D[] enemiesToDamage = Physics2D.OverlapCircleAll(attackPos.position, attackRange, enemies);
+        for (int i = 0; i < enemiesToDamage.Length; i++)
+        {
+            enemiesToDamage[i].GetComponent<Enemy>().TakeDamage(1);
+            Debug.Log("Damaging enemy: " + enemiesToDamage[i].name + ", " + enemiesToDamage[i].GetComponent<Enemy>().CurrentHP + " remaining.");
         }
     }
 

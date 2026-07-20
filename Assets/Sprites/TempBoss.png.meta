@@ -1,0 +1,702 @@
+fileFormatVersion: 2
+guid: c5b0fd9d8d1153a4fb4aade59a5ec1a9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7485037023679367124
+    second: TempBoss 1_0
+  - first:
+      213: 294484501296507165
+    second: TempBoss 1_1
+  - first:
+      213: -3725750587704399001
+    second: TempBoss 1_2
+  - first:
+      213: 4478595021283747399
+    second: TempBoss 1_3
+  - first:
+      213: -2321531215012917759
+    second: TempBoss 1_4
+  - first:
+      213: -2326440569145605460
+    second: TempBoss 1_5
+  - first:
+      213: 8675060240764689625
+    second: TempBoss 1_6
+  - first:
+      213: 9162374152838395419
+    second: TempBoss 1_7
+  - first:
+      213: -6346166727201008927
+    second: TempBoss 1_8
+  - first:
+      213: -4850197317312614547
+    second: TempBoss 1_9
+  - first:
+      213: 990664475057569745
+    second: TempBoss 1_10
+  - first:
+      213: 8178932452561458815
+    second: TempBoss 1_11
+  - first:
+      213: -2898703517160125856
+    second: TempBoss 1_12
+  - first:
+      213: 2273447440999674332
+    second: TempBoss 1_13
+  - first:
+      213: -5174557742322243496
+    second: TempBoss 1_14
+  - first:
+      213: 2868568319489137885
+    second: TempBoss 1_15
+  - first:
+      213: 5499277334471356582
+    second: TempBoss 1_16
+  - first:
+      213: -168871728889160967
+    second: TempBoss 1_17
+  - first:
+      213: -6865198281930006566
+    second: TempBoss 1_18
+  - first:
+      213: -4577438868491828825
+    second: TempBoss 1_19
+  - first:
+      213: 400802435225450673
+    second: TempBoss 1_20
+  - first:
+      213: -8216178797919062522
+    second: TempBoss 1_21
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TempBoss 1_0
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 1663
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c28b1f00c7ecf1890800000000000000
+      internalID: -7485037023679367124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TempBoss 1_1
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 1658
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d19e2abf718361400800000000000000
+      internalID: 294484501296507165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TempBoss 1_2
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 1658
+        width: 214
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76b2d2294997b4cc0800000000000000
+      internalID: -3725750587704399001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TempBoss 1_3
+      rect:
+        serializedVersion: 2
+        x: 1346
+        y: 1658
+        width: 214
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7466378717a272e30800000000000000
+      internalID: 4478595021283747399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TempBoss 1_4
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 1352
+        width: 214
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10e8c22f8a348cfd0800000000000000
+      internalID: -2321531215012917759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TempBoss 1_5
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 1351
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca2c40dd0a2d6bfd0800000000000000
+      internalID: -2326440569145605460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TempBoss 1_6
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 1351
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dcd4e79351046870800000000000000
+      internalID: 8675060240764689625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TempBoss 1_7
+      rect:
+        serializedVersion: 2
+        x: 1368
+        y: 1343
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1637276fba472f70800000000000000
+      internalID: 9162374152838395419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TempBoss 1_8
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 1002
+        width: 214
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e2d7cb2cf2ede7a0800000000000000
+      internalID: -6346166727201008927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TempBoss 1_9
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 1004
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6f6703cc33a0bcb0800000000000000
+      internalID: -4850197317312614547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TempBoss 1_10
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 1023
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dfb76f571c8fbd00800000000000000
+      internalID: 990664475057569745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TempBoss 1_11
+      rect:
+        serializedVersion: 2
+        x: 1355
+        y: 1021
+        width: 214
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7617d45bb7618170800000000000000
+      internalID: 8178932452561458815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TempBoss 1_12
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 681
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06ace76528cb5c7d0800000000000000
+      internalID: -2898703517160125856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TempBoss 1_13
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 679
+        width: 214
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd17e400768ec8f10800000000000000
+      internalID: 2273447440999674332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TempBoss 1_14
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 679
+        width: 214
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 858a22b36274038b0800000000000000
+      internalID: -5174557742322243496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TempBoss 1_15
+      rect:
+        serializedVersion: 2
+        x: 1357
+        y: 633
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddcd61130b33fc720800000000000000
+      internalID: 2868568319489137885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TempBoss 1_16
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 268
+        width: 197
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a0b58a699b515c40800000000000000
+      internalID: 5499277334471356582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TempBoss 1_17
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 239
+        width: 230
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fa94faae0c08adf0800000000000000
+      internalID: -168871728889160967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TempBoss 1_18
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 189
+        width: 214
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adf90f4398ae9b0a0800000000000000
+      internalID: -6865198281930006566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TempBoss 1_19
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 185
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a18a76f99ba970c0800000000000000
+      internalID: -4577438868491828825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TempBoss 1_20
+      rect:
+        serializedVersion: 2
+        x: 1505
+        y: 177
+        width: 214
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b879b8f0bfef8500800000000000000
+      internalID: 400802435225450673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TempBoss 1_21
+      rect:
+        serializedVersion: 2
+        x: 1769
+        y: 157
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60630fa1ae44afd80800000000000000
+      internalID: -8216178797919062522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      TempBoss 1_0: -7485037023679367124
+      TempBoss 1_1: 294484501296507165
+      TempBoss 1_10: 990664475057569745
+      TempBoss 1_11: 8178932452561458815
+      TempBoss 1_12: -2898703517160125856
+      TempBoss 1_13: 2273447440999674332
+      TempBoss 1_14: -5174557742322243496
+      TempBoss 1_15: 2868568319489137885
+      TempBoss 1_16: 5499277334471356582
+      TempBoss 1_17: -168871728889160967
+      TempBoss 1_18: -6865198281930006566
+      TempBoss 1_19: -4577438868491828825
+      TempBoss 1_2: -3725750587704399001
+      TempBoss 1_20: 400802435225450673
+      TempBoss 1_21: -8216178797919062522
+      TempBoss 1_3: 4478595021283747399
+      TempBoss 1_4: -2321531215012917759
+      TempBoss 1_5: -2326440569145605460
+      TempBoss 1_6: 8675060240764689625
+      TempBoss 1_7: 9162374152838395419
+      TempBoss 1_8: -6346166727201008927
+      TempBoss 1_9: -4850197317312614547
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

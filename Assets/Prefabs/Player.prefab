@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5870058078334778305}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Attack Pos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41,7 +41,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5753546742739054372}
   - component: {fileID: 2430464884247621241}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Ground Check
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -121,7 +121,7 @@ GameObject:
   - component: {fileID: 788218650205584001}
   - component: {fileID: 7716974873990606068}
   - component: {fileID: 36332645057690832}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: HeroKnight_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -253,7 +253,7 @@ GameObject:
   - component: {fileID: 3035889779053062996}
   - component: {fileID: 7640275927913114475}
   - component: {fileID: 5715287832445786457}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}

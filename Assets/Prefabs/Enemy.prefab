@@ -120,6 +120,8 @@ MonoBehaviour:
   moveSpeed: 3
   attackPos: {fileID: 5387292508245668840}
   attackRange: 0.3
+  attackSpd: 1
+  isBoss: 0
 --- !u!58 &5207017905880815192
 CircleCollider2D:
   m_ObjectHideFlags: 0

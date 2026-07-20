@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Collections;
 
 public class Enemy : MonoBehaviour
 {
@@ -10,8 +11,13 @@ public class Enemy : MonoBehaviour
     [SerializeField] private Transform attackPos;
     [SerializeField] private float attackRange = 3f;
     [SerializeField] private float attackSpd = 1f;
+    [SerializeField] private float castSpd = 5f;
+    [SerializeField] private bool isBoss = false;
+    [SerializeField] private GameObject[] bossAttacks;
+    [SerializeField] private float castTime = 0.75f;
 
     private float timeBtwAttack;
+    private float timeBtwCast;
     private Transform playerTransform;
     private PlayerHealth playerHealth;
     private bool chasingPlayer = true;
@@ -50,7 +56,7 @@ public class Enemy : MonoBehaviour
         else
         {
             anim.SetBool("IsRunning", false);
-            anim.SetFloat("AnimState", 1f);
+            anim.SetInteger("AnimState", 1);
             if (isAttacking) 
             {
                 if (timeBtwAttack > 0)
@@ -60,8 +66,13 @@ public class Enemy : MonoBehaviour
 
                 if (timeBtwAttack <= 0)
                 {
-                    timeBtwAttack = attackSpd;
-                    Attack();
+                    Collider2D playerToDamage = Physics2D.OverlapCircle(attackPos.position, attackRange, LayerMask.GetMask("Player"));
+                    if (playerToDamage)
+                    {
+                        timeBtwAttack = attackSpd;
+                        Attack();
+                    }
+                    
                 }
                 
             }
@@ -98,32 +109,73 @@ public class Enemy : MonoBehaviour
         transform.localScale = new Vector3(-transform.localScale.x, transform.localScale.y, transform.localScale.z);
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    public void OnPlayerDetected()
     {
-        if (collision.CompareTag("Player"))
+        chasingPlayer = false;
+        rb.linearVelocity = Vector2.zero;
+        isAttacking = true;
+    }
+
+    public void OnPlayerStay()
+    {
+        if (isAttacking)
         {
-            chasingPlayer = false;
-            rb.linearVelocity = Vector2.zero;
-            isAttacking = true;
+            if (timeBtwCast <= 0)
+            {
+                Debug.Log("Ranged Attacking!");
+                timeBtwCast = castSpd;
+                RangedAttack();
+            }
+            else
+            {
+                timeBtwCast -= Time.deltaTime;
+            }
         }
     }
-    private void OnTriggerExit2D(Collider2D collision)
+    public void OnPlayerLost()
     {
-        if (collision.CompareTag("Player"))
-        {
-            chasingPlayer = true;
-        }
+        chasingPlayer = true;
+        
     }
 
     public void Attack()
     {
         Collider2D playerToDamage = Physics2D.OverlapCircle(attackPos.position, attackRange, LayerMask.GetMask("Player"));
-        if (playerToDamage != null)
+        if (!isBoss)
         {
-            Debug.Log("Starting attack!");
-            anim.SetTrigger("Attack");
-            isAttacking = false;
-        }  
+            if (playerToDamage != null)
+            {
+                Debug.Log("Starting attack!");
+                anim.SetTrigger("Attack");
+                isAttacking = false;
+            }
+        }
+        else if (isBoss)
+        {
+            anim.SetTrigger("Melee");
+            StartCoroutine(CastAfterDelay(0, attackPos.position));
+        }
+    }
+
+
+    public void RangedAttack()
+    {
+        int randomAttack = Random.Range(1, bossAttacks.Length);
+        Debug.Log("Starting boss attack: " + randomAttack.ToString());
+        switch (randomAttack)
+        {
+            case 1:
+                anim.SetTrigger("Fireball");
+                StartCoroutine(CastAfterDelay(randomAttack, attackPos.position));
+                break;
+            case 2:
+                anim.SetTrigger("Lightning");
+                Vector2 cloudHeight = new Vector2(playerTransform.position.x + Random.Range(-5, 5), -1);
+                StartCoroutine(CastAfterDelay(randomAttack, cloudHeight));
+                break;
+            default:
+                break;
+        }
     }
 
     public void DealDamage(int damage)
@@ -145,5 +197,14 @@ public class Enemy : MonoBehaviour
     {
         Debug.Log("End attack");
         isAttacking = true;
+    }
+
+    private IEnumerator CastAfterDelay(int attackIndex, Vector2 spawnPos)
+    {
+        yield return new WaitForSeconds(castTime);
+
+        GameObject proj = Instantiate(bossAttacks[attackIndex], spawnPos, Quaternion.identity);
+        Projectile projScript = proj.GetComponent<Projectile>();
+        projScript.Init(1, playerTransform, gameObject);
     }
 }

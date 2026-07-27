@@ -13,4 +13,7 @@ MonoBehaviour:
   m_Name: Test Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueText
   speakerName: Guide
-  paragraphs: []
+  paragraphs:
+  - Greetings.
+  - I will teach you how to fight.
+  - AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA

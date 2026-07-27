@@ -17,8 +17,6 @@ namespace PlayerMovementNameSpace
         [SerializeField] private LayerMask groundLayer;
         [SerializeField] private Transform groundCheck;
 
-
-
         private float horizontal;
         private float vertical;
         private Vector2 moveInput;

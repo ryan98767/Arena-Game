@@ -5,11 +5,14 @@ public abstract class NPC : MonoBehaviour, IInteractable
 {
     private bool playerInRange = false;
     [SerializeField] private SpriteRenderer interactSprite;
+    
 
- 
-    public void OnInteract(InputAction.CallbackContext context) 
+    private void Update()
     {
-        Interact();
+        if (playerInRange && Keyboard.current.eKey.wasPressedThisFrame)
+        {
+            Interact();
+        }
     }
 
     private bool OnTriggerEnter2D(Collider2D collision)

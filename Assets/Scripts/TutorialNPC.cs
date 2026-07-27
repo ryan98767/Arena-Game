@@ -3,17 +3,7 @@ using UnityEngine;
 public class TutorialNPC : NPC, ITalkable
 {
     [SerializeField] private DialogueText dialogue;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    [SerializeField] private DialogueController dialogueCon;
 
     public override void Interact()
     {
@@ -22,6 +12,6 @@ public class TutorialNPC : NPC, ITalkable
 
     public void Talk(DialogueText dialogue) 
     {
-        
+        dialogueCon.DisplayNextParagraph(dialogue);
     }
 }

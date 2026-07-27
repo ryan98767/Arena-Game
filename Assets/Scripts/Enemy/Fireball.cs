@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class Fireball : Projectile
 {
-    [SerializeField] private float speed = 8f;
+    [SerializeField] private float speed = 4f;
     private Vector2 direction;
     private float lifetime = 5f;
 
@@ -17,6 +17,7 @@ public class Fireball : Projectile
     // Update is called once per frame
     void Update()
     {
+        
         transform.position += (Vector3)(direction * speed * Time.deltaTime);
         lifetime -= Time.deltaTime;
         if (lifetime <= 0f)

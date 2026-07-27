@@ -170,7 +170,7 @@ public class Enemy : MonoBehaviour
                 break;
             case 2:
                 anim.SetTrigger("Lightning");
-                Vector2 cloudHeight = new Vector2(playerTransform.position.x + Random.Range(-5, 5), -1);
+                Vector2 cloudHeight = new Vector2(playerTransform.position.x + Random.Range(-5, 5), -2);
                 StartCoroutine(CastAfterDelay(randomAttack, cloudHeight));
                 break;
             default:

@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b38c31c15fb7fb47869dd50fc08b9d2, type: 3}
+  m_Name: Witch Set
+  m_EditorClassIdentifier: Assembly-CSharp::EquipmentSet
+  setName: Witch's Set
+  setDescription: The personal gear of the supreme Witch
+  basicAttack:
+    abilityName: Basic Attack
+    icon: {fileID: 0}
+    animationTrigger: Attack
+    damage: 1
+    cooldown: 0
+    resourceGain: 1
+  spell1:
+    abilityName: Spell2
+    icon: {fileID: 0}
+    animationTrigger: Spell1
+    damage: 1
+    cooldown: 0
+    resourceGain: 1
+  spell2:
+    abilityName: Spell3
+    icon: {fileID: 0}
+    animationTrigger: Spell2
+    damage: 1
+    cooldown: 0
+    resourceGain: 1
+  ultimate:
+    abilityName: Ulti
+    icon: {fileID: 0}
+    animationTrigger: Spell3
+    damage: 1
+    cooldown: 0
+    resourceGain: 0
+  ultimateCost: 10

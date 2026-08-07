@@ -25,14 +25,12 @@ namespace PlayerMovementNameSpace
         private bool facingRight = true;
 
         private bool moving = false;
+        
 
         [SerializeField] private Animator anim;
 
         private void FixedUpdate()
-        {
-            //set abunatuibs
-            anim.SetBool("IsRunning", moving && IsGrounded());
-
+        {              
             //move
             rb.linearVelocity = new Vector2(horizontal * moveSpeed, rb.linearVelocity.y);
 
@@ -75,7 +73,7 @@ namespace PlayerMovementNameSpace
         {
             if (context.performed)
             {
-                anim.SetTrigger("Jump");
+                
                 if (IsGrounded())
                 {
                     Debug.Log("Was Grounded");
@@ -108,7 +106,6 @@ namespace PlayerMovementNameSpace
             else 
             {
                 anim.SetBool("Grounded", false);
-                anim.SetFloat("AirSpeedY", -1);
             }
             return grounded;
         }

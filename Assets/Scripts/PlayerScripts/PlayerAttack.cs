@@ -1,6 +1,6 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
-using PlayerMovementNameSpace;
+using PlayerState;
 
 public class PlayerAttack : MonoBehaviour
 {
@@ -12,7 +12,7 @@ public class PlayerAttack : MonoBehaviour
     [SerializeField] private float attackRange;
     [SerializeField] private LayerMask enemies;
     [SerializeField] private Animator anim;
-    [SerializeField] private PlayerMovement playerMove;
+    [SerializeField] private PlayerHealth playerHealth;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -41,9 +41,45 @@ public class PlayerAttack : MonoBehaviour
         {
             if (timeBtwAttack <= 0)
             {
-                anim.SetTrigger("Attack1");
+                anim.SetTrigger("Attack");
                 timeBtwAttack = startTimeBtwAttack;
             }
+        }
+    }
+
+    public void Block(InputAction.CallbackContext context)
+    {
+        if (context.performed)
+        {
+            playerHealth.IsBlocking = true;
+        }
+        else if (context.canceled)
+        {
+            playerHealth.IsBlocking = false;
+        }
+    }
+
+    public void FirstSpell(InputAction.CallbackContext context)
+    {
+        if (context.performed)
+        {
+            Debug.Log("First spell cast");
+        }
+    }
+
+    public void SecondSpell(InputAction.CallbackContext context)
+    {
+        if (context.performed)
+        {
+            Debug.Log("Second spell cast");
+        }
+    }
+
+    public void Ultimate(InputAction.CallbackContext context)
+    {
+        if (context.performed)
+        {
+            Debug.Log("Ultimate cast");
         }
     }
 

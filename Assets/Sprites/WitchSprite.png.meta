@@ -1,0 +1,792 @@
+fileFormatVersion: 2
+guid: 7bc19f36a4191c84888e0522e68ff6bf
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1710257666916839920
+    second: WitchSprite_0
+  - first:
+      213: 8011144284292677500
+    second: WitchSprite_1
+  - first:
+      213: 6302652328419851948
+    second: WitchSprite_2
+  - first:
+      213: 7407027055488844665
+    second: WitchSprite_3
+  - first:
+      213: 3302366974439325592
+    second: WitchSprite_4
+  - first:
+      213: -5508305396872088681
+    second: WitchSprite_5
+  - first:
+      213: 5828282556738482526
+    second: WitchSprite_6
+  - first:
+      213: 7403661268292089210
+    second: WitchSprite_7
+  - first:
+      213: 1069303914057695734
+    second: WitchSprite_8
+  - first:
+      213: 3599500818367108686
+    second: WitchSprite_9
+  - first:
+      213: -1318161898425244896
+    second: WitchSprite_10
+  - first:
+      213: -7922798023770244353
+    second: WitchSprite_11
+  - first:
+      213: -2472051473631179730
+    second: WitchSprite_12
+  - first:
+      213: -5215892874720119611
+    second: WitchSprite_13
+  - first:
+      213: -2420267949216202007
+    second: WitchSprite_14
+  - first:
+      213: -4088121530738951295
+    second: WitchSprite_15
+  - first:
+      213: 4725104591383686449
+    second: WitchSprite_16
+  - first:
+      213: -3917114677114217727
+    second: WitchSprite_17
+  - first:
+      213: -7486784458474211243
+    second: WitchSprite_18
+  - first:
+      213: 429309501372686706
+    second: WitchSprite_19
+  - first:
+      213: -3083733259426143859
+    second: WitchSprite_20
+  - first:
+      213: -982935252857820171
+    second: WitchSprite_21
+  - first:
+      213: -7115183433562062822
+    second: WitchSprite_22
+  - first:
+      213: 2416323555354160973
+    second: WitchSprite_23
+  - first:
+      213: -7679777535991043836
+    second: WitchSprite_24
+  - first:
+      213: 475599999393692801
+    second: WitchSprite_25
+  - first:
+      213: -2573089776424893099
+    second: WitchSprite_26
+  - first:
+      213: 1521527815993120135
+    second: WitchSprite_27
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 50
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: WitchSprite_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 310
+        width: 47
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01e880996b1f348e0800000000000000
+      internalID: -1710257666916839920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WitchSprite_1
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 309
+        width: 47
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7f7aad184d4d2f60800000000000000
+      internalID: 8011144284292677500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WitchSprite_2
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 309
+        width: 48
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caef04a56e4877750800000000000000
+      internalID: 6302652328419851948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WitchSprite_3
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 309
+        width: 52
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 973ce14ecdb0bc660800000000000000
+      internalID: 7407027055488844665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WitchSprite_4
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 310
+        width: 48
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89fff6d344d54dd20800000000000000
+      internalID: 3302366974439325592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WitchSprite_5
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 238
+        width: 47
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79372110d619e83b0800000000000000
+      internalID: -5508305396872088681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WitchSprite_6
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 234
+        width: 47
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e51b0051b1832e050800000000000000
+      internalID: 5828282556738482526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WitchSprite_7
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 229
+        width: 40
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a753edd72b61fb660800000000000000
+      internalID: 7403661268292089210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WitchSprite_8
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 232
+        width: 38
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f108529e3ee6de00800000000000000
+      internalID: 1069303914057695734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WitchSprite_9
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 231
+        width: 36
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e46df7f5ceef3f130800000000000000
+      internalID: 3599500818367108686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WitchSprite_10
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 229
+        width: 45
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 023a8efbcb2f4bde0800000000000000
+      internalID: -1318161898425244896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WitchSprite_11
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 226
+        width: 89
+        height: 77
+      alignment: 9
+      pivot: {x: 0.2571761, y: 0.46631968}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffaf1069c219c0290800000000000000
+      internalID: -7922798023770244353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WitchSprite_13
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 215
+        width: 99
+        height: 84
+      alignment: 9
+      pivot: {x: 0.2380442, y: 0.510291}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c4f0dfb01d6d97b0800000000000000
+      internalID: -5215892874720119611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WitchSprite_15
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 223
+        width: 88
+        height: 70
+      alignment: 9
+      pivot: {x: 0.283887, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18bbda9a0231447c0800000000000000
+      internalID: -4088121530738951295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WitchSprite_16
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 169
+        width: 46
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13dedf75791f29140800000000000000
+      internalID: 4725104591383686449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WitchSprite_17
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 160
+        width: 69
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10b532674fc93a9c0800000000000000
+      internalID: -3917114677114217727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WitchSprite_18
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 154
+        width: 69
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 558bab2a339991890800000000000000
+      internalID: -7486784458474211243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WitchSprite_20
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 166
+        width: 48
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d81e8d950f06435d0800000000000000
+      internalID: -3083733259426143859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WitchSprite_21
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 151
+        width: 69
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fb63386899eb52f0800000000000000
+      internalID: -982935252857820171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WitchSprite_22
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 90
+        width: 43
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a100ac27d5ac14d90800000000000000
+      internalID: -7115183433562062822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WitchSprite_23
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 90
+        width: 43
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4f2b4ba871888120800000000000000
+      internalID: 2416323555354160973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WitchSprite_24
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 88
+        width: 43
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 409aa3d2503fb6590800000000000000
+      internalID: -7679777535991043836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WitchSprite_25
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 8
+        width: 62
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18c790bfdaba99600800000000000000
+      internalID: 475599999393692801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WitchSprite_26
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 3
+        width: 67
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 555410d2b7c8a4cd0800000000000000
+      internalID: -2573089776424893099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WitchSprite_27
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 7
+        width: 89
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 785552cbc7d8d1510800000000000000
+      internalID: 1521527815993120135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 7360c38aec3e9b448a53533c197ad716
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      WitchSprite_0: -1710257666916839920
+      WitchSprite_1: 8011144284292677500
+      WitchSprite_10: -1318161898425244896
+      WitchSprite_11: -7922798023770244353
+      WitchSprite_12: -2472051473631179730
+      WitchSprite_13: -5215892874720119611
+      WitchSprite_14: -2420267949216202007
+      WitchSprite_15: -4088121530738951295
+      WitchSprite_16: 4725104591383686449
+      WitchSprite_17: -3917114677114217727
+      WitchSprite_18: -7486784458474211243
+      WitchSprite_19: 429309501372686706
+      WitchSprite_2: 6302652328419851948
+      WitchSprite_20: -3083733259426143859
+      WitchSprite_21: -982935252857820171
+      WitchSprite_22: -7115183433562062822
+      WitchSprite_23: 2416323555354160973
+      WitchSprite_24: -7679777535991043836
+      WitchSprite_25: 475599999393692801
+      WitchSprite_26: -2573089776424893099
+      WitchSprite_27: 1521527815993120135
+      WitchSprite_3: 7407027055488844665
+      WitchSprite_4: 3302366974439325592
+      WitchSprite_5: -5508305396872088681
+      WitchSprite_6: 5828282556738482526
+      WitchSprite_7: 7403661268292089210
+      WitchSprite_8: 1069303914057695734
+      WitchSprite_9: 3599500818367108686
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

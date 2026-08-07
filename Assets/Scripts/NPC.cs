@@ -3,11 +3,11 @@ using UnityEngine.InputSystem;
 
 public abstract class NPC : MonoBehaviour, IInteractable
 {
-    private bool playerInRange = false;
-    [SerializeField] private SpriteRenderer interactSprite;
+    protected bool playerInRange = false;
+    [SerializeField] protected SpriteRenderer interactSprite;
     
 
-    private void Update()
+    protected void Update()
     {
         if (playerInRange && Keyboard.current.eKey.wasPressedThisFrame)
         {
@@ -15,7 +15,7 @@ public abstract class NPC : MonoBehaviour, IInteractable
         }
     }
 
-    private bool OnTriggerEnter2D(Collider2D collision)
+    protected virtual bool OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
         {
@@ -26,7 +26,7 @@ public abstract class NPC : MonoBehaviour, IInteractable
         return false;
     }
 
-    private bool OnTriggerExit2D(Collider2D collision)
+    protected virtual bool OnTriggerExit2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
         {

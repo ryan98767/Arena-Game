@@ -1,21 +1,17 @@
 using UnityEngine;
-using PlayerMovementNameSpace;
+using PlayerState;
 
 public class Attack1 : StateMachineBehaviour
 {
     private GameObject player;
-    private PlayerMovement playerMove;
+    private PlayerStates stateManager;
     private float originalSpeed;
 
     //OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-        player = GameObject.FindGameObjectWithTag("Player");
-        playerMove = player.GetComponent<PlayerMovement>();
-        originalSpeed = playerMove.MoveSpeed;
-        Debug.Log("Original speed is: " + originalSpeed);
-        playerMove.MoveSpeed = 0;
-        Debug.Log("Now in lock out, speed is: " + playerMove.MoveSpeed);
+        if (stateManager.CurrentState != States.InDialogue)
+            stateManager.SetState(States.Blocking);
     }
 
     // OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks
@@ -27,8 +23,7 @@ public class Attack1 : StateMachineBehaviour
     // OnStateExit is called when a transition ends and the state machine finishes evaluating this state
     override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-        playerMove.MoveSpeed = originalSpeed;
-        Debug.Log("Speed is now reset to: " + playerMove.MoveSpeed);
+        stateManager.SetState(States.Normal);
     }
 
     // OnStateMove is called right after Animator.OnAnimatorMove()
